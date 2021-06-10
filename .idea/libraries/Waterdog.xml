@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Waterdog">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../libs/Waterdog.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../libs/Waterdog.jar!/" />
+    </SOURCES>
+  </library>
+</component>

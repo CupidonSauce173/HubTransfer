@@ -1,0 +1,4 @@
+name: "HubCommand"
+author: "CupidonSauce173"
+version: "0.0.1"
+main: "com.CupidonSauce173.HubTransfer.HubTransfer"
