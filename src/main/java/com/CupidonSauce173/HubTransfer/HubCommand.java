@@ -26,7 +26,7 @@ public class HubCommand extends Command{
     public boolean onExecute(CommandSender sender, String alias, String[] args){
         if(sender.isPlayer()){
             ProxiedPlayer player = (ProxiedPlayer) sender;
-            sender.sendMessage(message);
+            player.sendMessage(message);
             player.connect(defaultServer);
             return true;
         }
