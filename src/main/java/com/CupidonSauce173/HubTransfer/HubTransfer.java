@@ -35,6 +35,6 @@ public final class HubTransfer extends Plugin {
         //get default server.
         ServerInfo defaultServer = this.getProxy().getServerInfo(this.getProxy().getConfiguration().getPriorities().get(0));
         //registers command.
-        this.getProxy().getCommandMap().registerCommand((new HubCommand(defaultServer)));
+        this.getProxy().getCommandMap().registerCommand((new HubCommand(defaultServer, config.getString("message"))));
     }
 }
